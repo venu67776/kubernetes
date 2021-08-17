@@ -19,6 +19,8 @@ spec:
             configMapKeyRef:
               key: URL
               name: sample-meta
+              key: PROJECT
+              name: sample-meta
 
 
 ---
