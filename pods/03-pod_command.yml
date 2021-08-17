@@ -12,6 +12,6 @@ spec:
         - "10000"
     - name: ping
       image: venuzs/ping
-      #args is overwriting cmd
-      args: 
-       - "yahoo.com"
+      #args is overwriting cmd#
+      #args: 
+      # - "yahoo.com"
