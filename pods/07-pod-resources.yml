@@ -4,7 +4,7 @@ metadata:
   name: sample7
 spec:
   containers:
-  - name: app
+  - name: centos
     image: centos:7
     - sleep 
     - "10000"
