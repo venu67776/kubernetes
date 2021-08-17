@@ -17,8 +17,6 @@ spec:
           #value: google.com
           valueFrom:
             configMapKeyRef:
-              key: URL
-              name: sample-meta
               key: PROJECT
               name: sample-meta
 
