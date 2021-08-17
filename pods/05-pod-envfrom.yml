@@ -9,18 +9,9 @@ spec:
       command:
       - sleep
       - "100000"
-      #envFrom:
-      #- configMapRef:
-       #   name: sample-meta
-      env:
-        - name: PROJECT
-        - name: ENV
-        - name: URL
-          #value: google.com
-          valueFrom:
-            configMapKeyRef:
-              key: ENV
-              name: sample-meta
+      envFrom:
+      - configMapRef:
+          name: sample-meta
 
 
 
