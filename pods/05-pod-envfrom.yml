@@ -13,9 +13,9 @@ spec:
       #- configMapRef:
        #   name: sample-meta
       env:
-        - name: URL
         - name: PROJECT
         - name: ENV
+        - name: URL
           #value: google.com
           valueFrom:
             configMapKeyRef:
