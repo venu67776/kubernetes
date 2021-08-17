@@ -6,10 +6,12 @@ spec:
   containers: 
     - name: debug
       image: centos:7
+      #command is overwriting ENTRYPOINT
       command:
         - sleep
         - "10000"
     - name: ping
       image: venuzs/ping
+      #args is overwriting cmd
       args: 
        - "yahoo.com"
