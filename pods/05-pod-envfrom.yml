@@ -15,6 +15,13 @@ spec:
       env:
         - name: URL
          # value: github.com
+          valueFrom:
+            configMapKeyRef:
+              key: URL
+              name: sample-meta
+
+
+         
 
 
 ---
@@ -26,3 +33,6 @@ data:
   URL: yahoo.com
   env: dev
   PROJECT: devops
+
+
+  
