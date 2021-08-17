@@ -11,5 +11,5 @@ spec:
         - "10000"
     - name: ping
       image: venuzs/ping
-      #args: 
-      # - "yahoo.com"
+      args: 
+       - "yahoo.com"
