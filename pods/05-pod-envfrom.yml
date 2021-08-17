@@ -15,12 +15,15 @@ spec:
       env:
         - name: URL
         - name: PROJECT
+        - name: ENV
           #value: google.com
           valueFrom:
             configMapKeyRef:
               key: URL
               name: sample-meta
               key: PROJECT
+              name: sample-meta
+              key: ENV
               name: sample-meta
 
 
