@@ -11,4 +11,4 @@ spec:
       - "10000"
       env:
         - name: URL
-          value: google.com
+          value: github.com
